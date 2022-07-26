@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MasterCSS.css">
+    <title>scrolling effect</title>
+    <style>
+        body, html{
+            height: 100%;
+        }
+        .parallax{
+            background-image: url('prarthna 1.jpeg');
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            background-size: contain;
+            overflow-y: hidden;
+            
+        }
+
+         .hh1{
+            position: relative;
+            top: 600px;
+            color: white;
+            background-color: black;
+            display: inline-block;
+        }
+
+        .heading{
+            /* position: absolute; */
+            /* top:0; */
+            /* right: 0; */
+            color: white;
+            background-color: black;
+            display: inline-block;
+        }
+
+        .par1{
+            background-image: url('prarthna 2.jpeg');
+        }
+        .par2{
+            background-image: url('prarthna 3.jpeg');
+        }
+        .par3{
+            background-image: url('prarthna 4.jpeg');
+        }
+        .par4{
+            background-image: url('prarthna 5.jpeg');
+        }
+        .slideshowContainer{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            height: 50vh;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <h1 class="hh1">scroll Down</h1>
+        <h1 class="heading">PRARTHNA NANDI</h1>
+    </div>
+    <div class="slideshowContainer">    </div>
+    <div class="parallax par1"></div>
+    <div class="slideshowContainer">    </div>
+    <div class="parallax par2"></div>
+    <div class="slideshowContainer">    </div>
+    <div class="parallax par3"></div>
+    <div class="slideshowContainer">    </div>
+    <div class="parallax par4"></div>
+    <div class="slideshowContainer">    </div>
+</body>
+</html>
